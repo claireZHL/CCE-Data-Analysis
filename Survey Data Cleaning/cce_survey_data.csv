@@ -1,0 +1,167 @@
+bike_rider,zipcode,ebike_rider,by_public,by_car,by_bike,by_ebike,by_walking,no_commute,miles,try_bike,ebike_class,private_locker,group_locker,locker,ebike_rules,safty,interested
+no,92115,no,0,0,0.0,0,0,1,,maybe,no,very,very,,don't know,not very,no
+no,92129,no,0,1,0.0,0,0,0,,no,a bit,,,,not very,somewhat,no
+no,92115,yes,1,0,0.0,0,0,0,1,maybe,a bit,very,somewhat,,don't know,very,yes
+no,92562,no,0,0,0.0,0,0,1,,,no,,,,don't know,not concerned,maybe
+yes,92109,no,0,0,0.0,0,0,1,,,no,,,,don't know,not concerned,no
+no,92523,yes,0,0,0.0,0,0,1,,,no,,,,don't know,not concerned,maybe
+no,92110,no,0,0,0.0,0,0,1,,,yes,,,,don't know,somewhat,no
+yes,92020,no,0,0,0.0,0,0,1,,,yes,,,,not very,not concerned,yes
+yes,92101,no,0,0,0.0,0,1,0,8,yes,no,somewhat,very,,don't know,very,yes
+yes,92139,no,1,0,0.0,0,0,0,,maybe,no,very,very,,not very,not concerned,yes
+yes,91945,yes,0,0,0.0,0,0,1,,,no,,,,don't know,very,maybe
+no,92154,no,0,1,0.0,0,0,0,25,no,no,,,,don't know,somewhat,no
+yes,91977,no,0,0,1.0,0,0,0,2,yes,no,very,not very,,don't know,not concerned,yes
+yes,92115,no,0,1,0.0,0,0,0,40,maybe,no,very,not very,,somewhat,not very,
+no,91941,no,1,1,0.0,0,0,0,,maybe,no,not very,not very,,very,not very,yes
+yes,92139,no,0,0,0.0,0,0,1,,no,nan,,,,nan,,
+yes,92143,no,0,0,0.0,0,0,0,39,yes,no,very,very,,don't know,not concerned,yes
+no,92037,no,0,1,0.0,0,0,0,,no,no,,,,nan,,no
+yes,92108,no,0,1,0.0,0,1,0,13,maybe,a bit,very,very,,very,very,no
+no,92114,yes,0,1,0.0,0,0,0,45,yes,a bit,very,not very,,very,somewhat,yes
+yes,92154,no,0,1,0.0,0,0,0,40,yes,no,very,very,,somewhat,not very,yes
+nan,nan,nan,0,0,0.0,0,0,0,,,nan,,,,nan,,
+yes,92102,yes,0,1,0.0,0,0,0,10,yes,yes,very,very,,very,somewhat,no
+no,92101,no,0,1,0.0,0,0,0,6,yes,a bit,somewhat,somewhat,,very,very,no
+yes,92124,yes,0,1,0.0,1,0,0,30,yes,yes,very,somewhat,,very,very,yes
+no,92029,no,0,1,0.0,0,0,0,28,no,no,,,,very,somewhat,no
+yes,91945,no,1,1,0.0,0,0,0,30,yes,no,very,somewhat,,very,very,no
+no,92114,no,0,1,0.0,0,0,0,30,no,no,,,,don't know,not concerned,no
+yes,92107,yes,0,1,0.0,0,1,0,10,yes,a bit,very,somewhat,,very,don't know,no
+yes,92102,no,0,1,0.0,0,0,0,0,yes,a bit,,,,very,somewhat,yes
+yes,92120,no,0,1,0.0,0,0,0,3,yes,no,very,very,,don't know,somewhat,yes
+yes,91977,yes,0,1,0.0,0,0,0,8,no,no,somewhat,not very,,don't know,somewhat,no
+yes,92130,no,0,0,0.0,0,1,0,,no,no,somewhat,very,,don't know,not very,maybe
+no,92102,no,0,1,0.0,0,0,0,13,no,no,somewhat,somewhat,,don't know,somewhat,maybe
+no,92101,no,0,1,0.0,0,0,0,5,maybe,no,very,somewhat,,don't know,somewhat,maybe
+yes,92020,no,1,0,0.0,0,0,0,1,no,no,somewhat,not very,,don't know,somewhat,yes
+yes,92114,no,0,1,0.0,0,0,0,10,maybe,no,very,very,,somewhat,not concerned,no
+no,92021,no,0,0,0.0,0,1,0,,maybe,no,very,somewhat,,don't know,not concerned,maybe
+yes,92116,no,0,1,0.0,0,0,0,15,yes,no,very,somewhat,,don't know,somewhat,maybe
+no,92251,no,0,0,0.0,0,1,0,1,maybe,no,very,somewhat,,somewhat,not very,yes
+yes,92114,yes,0,1,0.0,0,0,0,20,no,a bit,very,not very,,don't know,very,yes
+no,92115,no,0,1,0.0,0,0,0,,yes,no,very,somewhat,,very,not very,yes
+yes,92130,no,0,0,1.0,0,0,0,1,no,no,not very,not very,,don't know,very,maybe
+yes,91910,yes,0,1,1.0,0,0,0,7,no,no,somewhat,very,,not very,somewhat,yes
+no,92115,no,0,1,0.0,0,0,0,3,yes,no,very,somewhat,,not very,somewhat,yes
+yes,92114,yes,1,0,0.0,0,0,0,1,no,no,very,very,,very,very,yes
+no,92108,no,0,1,0.0,0,0,0,10,yes,no,somewhat,somewhat,,somewhat,somewhat,yes
+yes,92114,no,0,1,0.0,0,0,0,1,yes,no,very,very,,not very,somewhat,yes
+yes,91977,no,0,1,0.0,0,0,0,,yes,no,very,very,,somewhat,very,yes
+no,91977,yes,0,1,0.0,0,0,0,,no,no,very,somewhat,,don't know,very,no
+yes,91945,yes,0,1,0.0,0,0,0,5,yes,yes,very,somewhat,,not very,somewhat,yes
+yes,91945,no,0,1,0.0,0,0,0,30,maybe,no,somewhat,somewhat,,not very,not concerned,yes
+no,92107,yes,0,1,0.0,0,0,0,5,maybe,no,very,very,,very,somewhat,maybe
+no,92123,no,0,1,0.0,0,0,0,0,yes,no,somewhat,somewhat,,somewhat,somewhat,yes
+yes,92078,no,0,0,0.0,0,0,1,0,maybe,no,very,somewhat,,don't know,somewhat,maybe
+no,92092,no,0,0,0.0,0,1,0,5,yes,no,very,very,,not very,somewhat,yes
+no,92139,no,0,1,0.0,0,1,0,5,yes,no,somewhat,somewhat,,don't know,not very,maybe
+yes,92131,no,0,1,0.0,0,0,0,4,yes,no,somewhat,somewhat,,don't know,somewhat,yes
+yes,92114,no,0,1,0.0,0,0,0,5,yes,no,very,very,,not very,somewhat,yes
+no,91910,no,0,1,0.0,0,0,0,5,maybe,no,very,very,,not very,not concerned,maybe
+no,92139,no,0,1,0.0,0,0,0,10,maybe,no,very,somewhat,,not very,somewhat,yes
+yes,92114,no,0,1,0.0,0,0,0,5,maybe,no,somewhat,somewhat,,don't know,somewhat,yes
+no,92117,no,0,0,0.0,0,0,1,0,maybe,no,don't know,don't know,,don't know,very,no
+no,91945,no,1,0,0.0,0,0,0,40,yes,yes,somewhat,somewhat,,very,very,yes
+no,92107,no,1,1,0.0,0,0,0,30,maybe,no,very,very,,somewhat,very,no
+yes,92122,no,1,1,0.0,1,1,0,10,maybe,a bit,,,very,very,not very,yes
+no,nan,nan,0,0,0.0,0,0,0,,,nan,,,,nan,,
+yes,92084,no,0,0,0.0,0,0,1,0,maybe,a bit,,,somewhat,nan,,
+yes,nan,nan,0,0,0.0,0,0,0,,,nan,,,,nan,,
+no,92009,no,0,1,0.0,0,0,0,15,maybe,yes,,,somewhat,very,somewhat,yes
+no,nan,no,1,1,0.0,0,1,0,25,no,no,,,somewhat,don't know,not concerned,maybe
+yes,92122,no,1,0,0.0,0,1,0,,maybe,no,,,not very,not very,somewhat,maybe
+no,92122,no,0,1,0.0,0,0,0,5,maybe,no,,,not very,don't know,very,no
+no,92009,no,0,1,0.0,0,0,0,20,maybe,a bit,,,somewhat,very,somewhat,
+yes,92122,nan,0,0,0.0,0,0,0,,,nan,,,,nan,,
+yes,nan,nan,0,0,0.0,0,0,0,,,nan,,,,nan,,
+no,nan,nan,0,0,0.0,0,0,0,,,nan,,,,nan,,
+no,92010,no,1,0,0.0,0,0,0,35,no,no,,,don’t know,not very,somewhat,maybe
+no,92122,no,1,1,0.0,0,1,0,2,maybe,no,,,very,somewhat,very,maybe
+yes,92092,no,1,0,1.0,1,0,0,6,yes,a bit,,,not very,somewhat,not very,yes
+yes,05753,no,0,1,0.0,0,0,0,10,yes,no,,,somewhat,not very,not concerned,yes
+no,92131,no,0,1,0.0,0,1,0,10,no,no,,,very,don't know,not very,no
+yes,92037,yes,1,0,0.0,1,1,0,3,yes,no,,,not very,somewhat,not concerned,no
+yes,92037,no,0,1,0.0,0,0,0,5,maybe,no,,,somewhat,not very,somewhat,yes
+no,95616,no,1,0,0.0,0,0,0,,maybe,no,,,somewhat,not very,very,maybe
+no,92122,no,1,0,0.0,0,0,0,4,maybe,no,,,somewhat,don't know,somewhat,maybe
+no,92092,no,0,0,0.0,0,1,0,0,yes,no,,,don’t know,don't know,not concerned,maybe
+yes,94702,no,0,0,1.0,0,0,0,0,yes,yes,,,very,somewhat,somewhat,yes
+yes,92014,yes,0,1,0.0,0,0,0,8,no,a bit,,,somewhat,very,very,maybe
+yes,92024,no,0,1,0.0,0,0,0,8,yes,yes,,,very,very,not very,no
+no,92122,no,1,0,0.0,0,0,0,,yes,no,,,don’t know,somewhat,somewhat,yes
+yes,nan,no,0,0,0.0,0,0,0,0,maybe,no,,,somewhat,somewhat,somewhat,no
+yes,92122,no,0,0,0.0,0,0,0,,,nan,,,,nan,,
+yes,92122,no,1,0,0.0,0,0,0,,maybe,no,,,not very,don't know,no opinion,no
+yes,80026,no,1,1,1.0,0,1,0,2,no,yes,,,very,very,somewhat,no
+no,92121,yes,1,0,0.0,0,0,0,2,maybe,no,,,somewhat,not very,not concerned,no
+no,92122,no,0,1,0.0,0,0,0,3,maybe,no,,,very,somewhat,somewhat,no
+no,94583,no,0,0,0.0,0,0,1,,maybe,no,,,not very,don't know,no opinion,maybe
+no,92111,no,1,1,0.0,0,0,0,20,no,no,,,don’t know,not very,not concerned,maybe
+no,94583,no,0,0,0.0,0,0,1,1,maybe,no,,,somewhat,very,no opinion,no
+no,92113,no,0,1,0.0,0,0,0,15,no,no,,,don’t know,don't know,no opinion,no
+no,92122,no,0,1,0.0,0,0,0,,maybe,no,,,somewhat,don't know,somewhat,yes
+no,92648,yes,0,1,0.0,0,0,0,,yes,no,,,somewhat,somewhat,somewhat,maybe
+yes,92646,no,1,0,1.0,0,1,0,2,yes,no,,,somewhat,not very,not very,yes
+yes,92092,no,0,0,0.0,0,1,0,,maybe,no,,,somewhat,not very,not very,no
+yes,92092,no,1,0,0.0,0,1,0,1,maybe,no,,,very,somewhat,no opinion,no
+yes,92092,no,0,0,0.0,0,1,0,40,yes,no,,,very,not very,not very,no
+yes,92117,yes,1,1,0.0,0,0,0,6,maybe,no,,,somewhat,not very,not concerned,maybe
+yes,95062,yes,0,0,0.0,0,0,1,2,maybe,yes,,,very,very,not very,yes
+yes,90277,no,1,0,0.0,0,1,0,1,yes,no,,,very,not very,somewhat,yes
+yes,nan,nan,0,0,0.0,0,0,0,,,nan,,,,nan,,
+yes,nan,nan,0,0,0.0,0,0,0,,,nan,,,,nan,,
+yes,nan,nan,0,0,0.0,0,0,0,,,nan,,,,nan,,
+no,nan,no,1,0,0.0,0,0,0,,,nan,,,,nan,,
+yes,nan,nan,0,0,0.0,0,0,0,,,nan,,,,nan,,
+no,nan,nan,0,0,0.0,0,0,0,,,nan,,,,nan,,
+yes,nan,nan,0,0,0.0,0,0,0,,,nan,,,,nan,,
+yes,92612,yes,0,1,0.0,1,1,0,5,yes,yes,,,don’t know,very,somewhat,
+yes,nan,nan,0,0,0.0,0,0,0,,,nan,,,,nan,,
+no,nan,no,1,0,0.0,0,0,0,13,maybe,no,,,very,don't know,,
+no,93117,no,0,0,0.0,0,0,0,,,nan,,,,nan,,
+no,nan,nan,0,0,0.0,0,0,0,,,nan,,,,nan,,
+no,91748,no,0,0,0.0,0,1,0,,,nan,,,,nan,,
+yes,92119,no,0,0,0.0,0,0,1,5,maybe,a bit,,,very,somewhat,somewhat,
+no,nan,nan,0,0,0.0,0,0,0,,,nan,,,,nan,,
+yes,92109,no,0,1,,0,0,0,10,,no,,,very,somewhat,,yes
+no,92103,no,0,1,,0,0,0,5,,a bit,,,not very,not very,,maybe
+no,92114,no,0,1,,0,0,0,12,,no,,,very,don't know,,maybe
+yes,92109,no,0,1,,0,0,0,50,,no,,,very,somewhat,,yes
+yes,92109,no,0,1,,0,0,0,20,,no,,,somewhat,not very,,yes
+yes,92116,yes,1,0,,1,0,0,3,,yes,,,very,very,,maybe
+yes,92013,no,0,0,,1,0,0,5,,yes,,,very,somewhat,,yes
+no,92114,no,0,1,,0,0,0,5,,no,,,somewhat,somewhat,,maybe
+yes,92102,yes,0,0,,1,0,0,70,,a bit,,,very,very,,yes
+no,nan,no,1,0,,0,0,0,14,,no,,,somewhat,not very,,maybe
+yes,nan,yes,0,1,,0,0,0,50,,yes,,,not very,somewhat,,yes
+yes,92116,no,0,0,,0,0,1,0,,no,,,very,not very,,maybe
+yes,92102,yes,1,1,,0,0,0,30,,no,,,somewhat,somewhat,,yes
+yes,92104,no,0,1,,0,0,0,10,,no,,,very,somewhat,,yes
+yes,92115,no,0,0,,0,0,1,0,,yes,,,very,somewhat,,yes
+no,92009,no,0,0,,0,0,1,0,,no,,,somewhat,don't know,,no
+yes,92139,no,0,1,,0,0,0,10,,yes,,,somewhat,very,,yes
+no,92122,no,0,0,,0,0,1,0,,no,,,very,don't know,,yes
+yes,92020,no,0,1,,0,0,0,40,,no,,,somewhat,don't know,,yes
+no,92037,no,1,0,,0,0,0,25,,no,,,,don't know,,no
+no,92102,no,0,0,,0,0,1,0,,no,,,very,don't know,,yes
+no,92139,no,0,1,,0,0,0,30,,no,,,not very,don't know,,no
+yes,92104,no,0,1,,0,0,0,30,,a bit,,,somewhat,very,,no
+yes,92139,yes,0,0,,1,0,0,35,,no,,,very,very,,yes
+yes,92123,yes,0,0,,1,0,0,40,,yes,,,somewhat,very,,yes
+yes,92102,yes,0,0,,0,0,1,0,,no,,,very,somewhat,,yes
+yes,92105,no,0,0,,0,0,1,0,,no,,,,somewhat,,no
+no,92173,no,0,1,,0,0,0,20,,no,,,no opinon,very,,yes
+no,91906,yes,0,1,,0,0,0,80,,no,,,no opinon,don't know,,no
+no,92102,no,0,1,,0,0,0,6,,yes,,,very,don't know,,no
+no,91950,yes,0,0,,0,0,1,0,,a bit,,,very,somewhat,,yes
+yes,92117,no,0,1,,0,0,0,28,,no,,,very,not very,,yes
+yes,92118,no,0,1,,0,0,0,10,,yes,,,very,very,,yes
+no,92122,no,1,1,,0,0,0,24,,no,,,somewhat,don't know,,yes
+no,92129,no,0,1,,0,0,0,22,,no,,,somewhat,not very,,yes
+yes,92108,no,0,1,,0,0,0,10,,no,,,somewhat,not very,,maybe
+no,91945,no,0,1,,0,0,0,20,,a bit,,,somewhat,not very,,yes
+yes,92108,no,0,1,,0,0,0,10,,no,,,somewhat,not very,,yes
+yes,92117,no,0,1,,0,0,0,15,,no,,,very,not very,,maybe
+yes,92102,no,0,1,,0,0,0,12,,no,,,somewhat,somewhat,,maybe
+no,92139,no,1,0,,0,0,0,15,,no,,,no opinon,don't know,,no
