@@ -1,0 +1,1866 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20231.23.0511.1508                               -->
+<workbook original-version='18.1' source-build='2023.1.2 (20231.23.0511.1508)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='all data (cce_survey_data)' inline='true' name='federated.05lmcca0y4i9nn12eotr50ujvmnb' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='cce_survey_data' name='excel-direct.1k4zcrd0ihidrb16oef1219xlsno'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/lizhihan/Desktop/CCE-Data-Analysis/Step 1 - Survey Data Cleaning/cce_survey_data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1k4zcrd0ihidrb16oef1219xlsno' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:R167:no:A1:R167:0' header='yes' outcome='2'>
+            <column datatype='string' name='bike_rider' ordinal='0' />
+            <column datatype='string' name='zipcode' ordinal='1' />
+            <column datatype='string' name='ebike_rider' ordinal='2' />
+            <column datatype='integer' name='by_public' ordinal='3' />
+            <column datatype='integer' name='by_car' ordinal='4' />
+            <column datatype='integer' name='by_bike' ordinal='5' />
+            <column datatype='integer' name='by_ebike' ordinal='6' />
+            <column datatype='integer' name='by_walking' ordinal='7' />
+            <column datatype='integer' name='no_commute' ordinal='8' />
+            <column datatype='integer' name='miles' ordinal='9' />
+            <column datatype='string' name='try_bike' ordinal='10' />
+            <column datatype='string' name='ebike_class' ordinal='11' />
+            <column datatype='string' name='private_locker' ordinal='12' />
+            <column datatype='string' name='group_locker' ordinal='13' />
+            <column datatype='string' name='locker' ordinal='14' />
+            <column datatype='string' name='ebike_rules' ordinal='15' />
+            <column datatype='string' name='safty' ordinal='16' />
+            <column datatype='string' name='interested' ordinal='17' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1k4zcrd0ihidrb16oef1219xlsno' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:R167:no:A1:R167:0' header='yes' outcome='2'>
+            <column datatype='string' name='bike_rider' ordinal='0' />
+            <column datatype='string' name='zipcode' ordinal='1' />
+            <column datatype='string' name='ebike_rider' ordinal='2' />
+            <column datatype='integer' name='by_public' ordinal='3' />
+            <column datatype='integer' name='by_car' ordinal='4' />
+            <column datatype='integer' name='by_bike' ordinal='5' />
+            <column datatype='integer' name='by_ebike' ordinal='6' />
+            <column datatype='integer' name='by_walking' ordinal='7' />
+            <column datatype='integer' name='no_commute' ordinal='8' />
+            <column datatype='integer' name='miles' ordinal='9' />
+            <column datatype='string' name='try_bike' ordinal='10' />
+            <column datatype='string' name='ebike_class' ordinal='11' />
+            <column datatype='string' name='private_locker' ordinal='12' />
+            <column datatype='string' name='group_locker' ordinal='13' />
+            <column datatype='string' name='locker' ordinal='14' />
+            <column datatype='string' name='ebike_rules' ordinal='15' />
+            <column datatype='string' name='safty' ordinal='16' />
+            <column datatype='string' name='interested' ordinal='17' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:R167:no:A1:R167:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bike_rider</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[bike_rider]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>bike_rider</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F8EC4C0FA90D45018FA0193831047690]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>zipcode</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[zipcode]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>zipcode</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F8EC4C0FA90D45018FA0193831047690]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ebike_rider</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ebike_rider]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>ebike_rider</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F8EC4C0FA90D45018FA0193831047690]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>by_public</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[by_public]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>by_public</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F8EC4C0FA90D45018FA0193831047690]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>by_car</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[by_car]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>by_car</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F8EC4C0FA90D45018FA0193831047690]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>by_bike</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[by_bike]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>by_bike</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F8EC4C0FA90D45018FA0193831047690]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>by_ebike</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[by_ebike]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>by_ebike</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F8EC4C0FA90D45018FA0193831047690]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>by_walking</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[by_walking]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>by_walking</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F8EC4C0FA90D45018FA0193831047690]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>no_commute</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[no_commute]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>no_commute</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F8EC4C0FA90D45018FA0193831047690]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>miles</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[miles]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>miles</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F8EC4C0FA90D45018FA0193831047690]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>try_bike</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[try_bike]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>try_bike</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F8EC4C0FA90D45018FA0193831047690]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ebike_class</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ebike_class]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>ebike_class</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F8EC4C0FA90D45018FA0193831047690]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>private_locker</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[private_locker]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>private_locker</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F8EC4C0FA90D45018FA0193831047690]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>group_locker</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[group_locker]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>group_locker</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F8EC4C0FA90D45018FA0193831047690]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>locker</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[locker]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>locker</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F8EC4C0FA90D45018FA0193831047690]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ebike_rules</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ebike_rules]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>ebike_rules</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F8EC4C0FA90D45018FA0193831047690]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>safty</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[safty]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>safty</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F8EC4C0FA90D45018FA0193831047690]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>interested</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[interested]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>interested</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F8EC4C0FA90D45018FA0193831047690]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='CNT(Miles)' datatype='integer' name='[Calculation_2219570989787344907]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='Count([miles])' />
+      </column>
+      <column aggregation='None' caption='Miles (bin)' datatype='integer' name='[Miles (bin) 2]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='0' formula='[miles]' peg='0' size='5' />
+      </column>
+      <column aggregation='None' caption='Miles (bin, by 10)' datatype='integer' name='[Miles (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='1' formula='[miles]' peg='0' size='10' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_F8EC4C0FA90D45018FA0193831047690]' role='measure' type='quantitative' />
+      <column caption='Bike Rider' datatype='string' name='[bike_rider]' role='dimension' type='nominal' />
+      <column caption='By Bike' datatype='integer' name='[by_bike]' role='measure' type='quantitative' />
+      <column caption='By Car' datatype='integer' name='[by_car]' role='measure' type='quantitative' />
+      <column caption='By Ebike' datatype='integer' name='[by_ebike]' role='measure' type='quantitative' />
+      <column caption='By Public' datatype='integer' name='[by_public]' role='measure' type='quantitative' />
+      <column caption='By Walking' datatype='integer' name='[by_walking]' role='measure' type='quantitative' />
+      <column caption='Ebike Class' datatype='string' name='[ebike_class]' role='dimension' type='nominal' />
+      <column caption='E-Bike Rider' datatype='string' name='[ebike_rider]' role='dimension' type='nominal' />
+      <column caption='Ebike Rules' datatype='string' name='[ebike_rules]' role='dimension' type='nominal' />
+      <column caption='Group Locker' datatype='string' name='[group_locker]' role='dimension' type='nominal' />
+      <column caption='Interested' datatype='string' name='[interested]' role='dimension' type='nominal' />
+      <column caption='Locker' datatype='string' name='[locker]' role='dimension' type='nominal' />
+      <column caption='Miles' datatype='integer' name='[miles]' role='measure' type='quantitative' />
+      <column caption='No Commute' datatype='integer' name='[no_commute]' role='measure' type='quantitative' />
+      <column caption='Private Locker' datatype='string' name='[private_locker]' role='dimension' type='nominal' />
+      <column caption='Safty' datatype='string' name='[safty]' role='dimension' type='nominal' />
+      <column caption='Try E-bike' datatype='string' name='[try_bike]' role='dimension' type='nominal' />
+      <column caption='Zipcode' datatype='string' name='[zipcode]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
+      <column-instance column='[bike_rider]' derivation='None' name='[none:bike_rider:nk]' pivot='key' type='nominal' />
+      <column-instance column='[ebike_class]' derivation='None' name='[none:ebike_class:nk]' pivot='key' type='nominal' />
+      <column-instance column='[ebike_rider]' derivation='None' name='[none:ebike_rider:nk]' pivot='key' type='nominal' />
+      <column-instance column='[ebike_rules]' derivation='None' name='[none:ebike_rules:nk]' pivot='key' type='nominal' />
+      <column-instance column='[interested]' derivation='None' name='[none:interested:nk]' pivot='key' type='nominal' />
+      <column-instance column='[safty]' derivation='None' name='[none:safty:nk]' pivot='key' type='nominal' />
+      <column-instance column='[try_bike]' derivation='None' name='[none:try_bike:nk]' pivot='key' type='nominal' />
+      <column-instance column='[by_bike]' derivation='Sum' name='[sum:by_bike:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[by_car]' derivation='Sum' name='[sum:by_car:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[by_ebike]' derivation='Sum' name='[sum:by_ebike:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[by_public]' derivation='Sum' name='[sum:by_public:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[by_walking]' derivation='Sum' name='[sum:by_walking:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[no_commute]' derivation='Sum' name='[sum:no_commute:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:bike_rider:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;yes&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;no&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.05lmcca0y4i9nn12eotr50ujvmnb].[sum:by_bike:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.05lmcca0y4i9nn12eotr50ujvmnb].[sum:by_walking:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.05lmcca0y4i9nn12eotr50ujvmnb].[sum:by_public:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.05lmcca0y4i9nn12eotr50ujvmnb].[cnt:group_locker:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.05lmcca0y4i9nn12eotr50ujvmnb].[sum:by_ebike:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.05lmcca0y4i9nn12eotr50ujvmnb].[sum:no_commute:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.05lmcca0y4i9nn12eotr50ujvmnb].[sum:by_car:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.05lmcca0y4i9nn12eotr50ujvmnb].[cnt:private_locker:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:ebike_rider:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;yes&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;no&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:try_bike:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;yes&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;maybe&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;no&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:ebike_class:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;yes&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;a bit&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;no&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:ebike_rules:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;very&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;don&apos;t know&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;not very&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;somewhat&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:safty:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;very&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;no opinion&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;not concerned&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;not very&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;don&apos;t know&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;somewhat&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:interested:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;yes&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;maybe&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;no&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='bike_rider' />
+        <field-sort-custom-order field='zipcode' />
+        <field-sort-custom-order field='ebike_rider' />
+        <field-sort-custom-order field='by_public' />
+        <field-sort-custom-order field='by_car' />
+        <field-sort-custom-order field='by_bike' />
+        <field-sort-custom-order field='by_ebike' />
+        <field-sort-custom-order field='by_walking' />
+        <field-sort-custom-order field='no_commute' />
+        <field-sort-custom-order field='miles' />
+        <field-sort-custom-order field='Calculation_2219570989787344907' />
+        <field-sort-custom-order field='try_bike' />
+        <field-sort-custom-order field='ebike_class' />
+        <field-sort-custom-order field='private_locker' />
+        <field-sort-custom-order field='group_locker' />
+        <field-sort-custom-order field='locker' />
+        <field-sort-custom-order field='ebike_rules' />
+        <field-sort-custom-order field='safty' />
+        <field-sort-custom-order field='interested' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field='Miles (bin)' />
+        <field-sort-custom-order field='Miles (bin) 2' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_F8EC4C0FA90D45018FA0193831047690'>
+            <properties context=''>
+              <relation connection='excel-direct.1k4zcrd0ihidrb16oef1219xlsno' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:R167:no:A1:R167:0' header='yes' outcome='2'>
+                  <column datatype='string' name='bike_rider' ordinal='0' />
+                  <column datatype='string' name='zipcode' ordinal='1' />
+                  <column datatype='string' name='ebike_rider' ordinal='2' />
+                  <column datatype='integer' name='by_public' ordinal='3' />
+                  <column datatype='integer' name='by_car' ordinal='4' />
+                  <column datatype='integer' name='by_bike' ordinal='5' />
+                  <column datatype='integer' name='by_ebike' ordinal='6' />
+                  <column datatype='integer' name='by_walking' ordinal='7' />
+                  <column datatype='integer' name='no_commute' ordinal='8' />
+                  <column datatype='integer' name='miles' ordinal='9' />
+                  <column datatype='string' name='try_bike' ordinal='10' />
+                  <column datatype='string' name='ebike_class' ordinal='11' />
+                  <column datatype='string' name='private_locker' ordinal='12' />
+                  <column datatype='string' name='group_locker' ordinal='13' />
+                  <column datatype='string' name='locker' ordinal='14' />
+                  <column datatype='string' name='ebike_rules' ordinal='15' />
+                  <column datatype='string' name='safty' ordinal='16' />
+                  <column datatype='string' name='interested' ordinal='17' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='E-bike Class'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000'>Do you know the differences between Class 1, Class 1, and Class 3 e-bikes?</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text />
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='all data (cce_survey_data)' name='federated.05lmcca0y4i9nn12eotr50ujvmnb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05lmcca0y4i9nn12eotr50ujvmnb'>
+            <column-instance column='[ebike_class]' derivation='Count' name='[cnt:ebike_class:qk]' pivot='key' type='quantitative' />
+            <column caption='Ebike Class' datatype='string' name='[ebike_class]' role='dimension' type='nominal' />
+            <column-instance column='[ebike_class]' derivation='None' name='[none:ebike_class:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:ebike_class:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:ebike_class:nk]' />
+              <groupfilter function='member' level='[none:ebike_class:nk]' member='&quot;nan&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:ebike_class:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;yes&quot;</bucket>
+              <bucket>&quot;no&quot;</bucket>
+              <bucket>&quot;a bit&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:ebike_class:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[cnt:ebike_class:qk]' scope='rows' value='Count' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:ebike_class:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[cnt:ebike_class:qk]</rows>
+        <cols>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:ebike_class:nk]</cols>
+      </table>
+      <simple-id uuid='{2B1605B9-9FBE-4380-93EC-3E79DE147702}' />
+    </worksheet>
+    <worksheet name='E-bike Rules'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000'>How familiar are you and those in your family with the rules of the road for e-bikes?</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text />
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='all data (cce_survey_data)' name='federated.05lmcca0y4i9nn12eotr50ujvmnb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05lmcca0y4i9nn12eotr50ujvmnb'>
+            <column-instance column='[ebike_rules]' derivation='Count' name='[cnt:ebike_rules:qk]' pivot='key' type='quantitative' />
+            <column caption='Ebike Rules' datatype='string' name='[ebike_rules]' role='dimension' type='nominal' />
+            <column-instance column='[ebike_rules]' derivation='None' name='[none:ebike_rules:nk]' pivot='key' type='nominal' />
+            <column-instance column='[private_locker]' derivation='None' name='[none:private_locker:nk]' pivot='key' type='nominal' />
+            <column caption='Private Locker' datatype='string' name='[private_locker]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:ebike_rules:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:ebike_rules:nk]' />
+              <groupfilter function='member' level='[none:ebike_rules:nk]' member='&quot;nan&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:ebike_rules:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;very&quot;</bucket>
+              <bucket>&quot;somewhat&quot;</bucket>
+              <bucket>&quot;not very&quot;</bucket>
+              <bucket>&quot;don&apos;t know&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:private_locker:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:private_locker:nk]' />
+              <groupfilter function='member' level='[none:private_locker:nk]' member='&quot;nan&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:private_locker:nk]</column>
+            <column>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:ebike_rules:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[cnt:ebike_rules:qk]' scope='rows' value='Count' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:ebike_rules:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[cnt:ebike_rules:qk]</rows>
+        <cols>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:ebike_rules:nk]</cols>
+      </table>
+      <simple-id uuid='{AF0A4D5A-DAE9-4E29-93C6-B141641D1CDB}' />
+    </worksheet>
+    <worksheet name='E-bike Safty'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000'>How concerned are you about e-bikes and e-bike safety in San Diego County?</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text />
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='all data (cce_survey_data)' name='federated.05lmcca0y4i9nn12eotr50ujvmnb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05lmcca0y4i9nn12eotr50ujvmnb'>
+            <column-instance column='[safty]' derivation='Count' name='[cnt:safty:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[safty]' derivation='None' name='[none:safty:nk]' pivot='key' type='nominal' />
+            <column caption='Safty' datatype='string' name='[safty]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:safty:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:safty:nk]' />
+              <groupfilter function='member' level='[none:safty:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:safty:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;very&quot;</bucket>
+              <bucket>&quot;somewhat&quot;</bucket>
+              <bucket>&quot;not very&quot;</bucket>
+              <bucket>&quot;not concerned&quot;</bucket>
+              <bucket>&quot;no opinion&quot;</bucket>
+              <bucket>&quot;don&apos;t know&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:safty:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:safty:nk]' value='41' />
+            <format attr='title' class='0' field='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[cnt:safty:qk]' scope='rows' value='Count' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:safty:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[cnt:safty:qk]</rows>
+        <cols>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:safty:nk]</cols>
+      </table>
+      <simple-id uuid='{01BEE74C-7052-4402-8C19-57DC714E023D}' />
+    </worksheet>
+    <worksheet name='Learn More about E-bikes'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontsize='20'>Are you interested in learning more about e-bikes?</run>
+            <run>Æ&#10;</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text />
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='all data (cce_survey_data)' name='federated.05lmcca0y4i9nn12eotr50ujvmnb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05lmcca0y4i9nn12eotr50ujvmnb'>
+            <column-instance column='[interested]' derivation='Count' name='[cnt:interested:qk]' pivot='key' type='quantitative' />
+            <column caption='Interested' datatype='string' name='[interested]' role='dimension' type='nominal' />
+            <column-instance column='[interested]' derivation='None' name='[none:interested:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:interested:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:interested:nk]' />
+              <groupfilter function='member' level='[none:interested:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:interested:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;yes&quot;</bucket>
+              <bucket>&quot;no&quot;</bucket>
+              <bucket>&quot;maybe&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:interested:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[cnt:interested:qk]' scope='rows' value='Count' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:interested:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[cnt:interested:qk]</rows>
+        <cols>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:interested:nk]</cols>
+      </table>
+      <simple-id uuid='{5705CFCF-9AFE-4C02-8253-F7EB6BCE0625}' />
+    </worksheet>
+    <worksheet name='Try Ebike'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000'>Would you commute by e-bike if given the opportunity?</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text />
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='all data (cce_survey_data)' name='federated.05lmcca0y4i9nn12eotr50ujvmnb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05lmcca0y4i9nn12eotr50ujvmnb'>
+            <column-instance column='[try_bike]' derivation='Count' name='[cnt:try_bike:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[try_bike]' derivation='None' name='[none:try_bike:nk]' pivot='key' type='nominal' />
+            <column caption='Try E-bike' datatype='string' name='[try_bike]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:try_bike:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:try_bike:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:try_bike:nk]' member='%null%' />
+                <groupfilter function='member' level='[none:try_bike:nk]' member='&quot;nan&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:try_bike:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;yes&quot;</bucket>
+              <bucket>&quot;no&quot;</bucket>
+              <bucket>&quot;maybe&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:try_bike:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[cnt:try_bike:qk]' scope='rows' value='Count' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:try_bike:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[cnt:try_bike:qk]</rows>
+        <cols>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:try_bike:nk]</cols>
+      </table>
+      <simple-id uuid='{C418343A-B74F-436C-97F4-1A3FD9BC8112}' />
+    </worksheet>
+    <worksheet name='bike rider'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000'>Are you a bike rider?</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text />
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='all data (cce_survey_data)' name='federated.05lmcca0y4i9nn12eotr50ujvmnb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05lmcca0y4i9nn12eotr50ujvmnb'>
+            <column caption='Bike Rider' datatype='string' name='[bike_rider]' role='dimension' type='nominal' />
+            <column-instance column='[bike_rider]' derivation='Count' name='[cnt:bike_rider:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[bike_rider]' derivation='None' name='[none:bike_rider:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:bike_rider:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:bike_rider:nk]' />
+              <groupfilter function='member' level='[none:bike_rider:nk]' member='&quot;nan&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:bike_rider:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;yes&quot;</bucket>
+              <bucket>&quot;no&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:bike_rider:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[cnt:bike_rider:qk]' scope='rows' value='Count' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='vertical-align' scope='cols' value='auto' />
+            <format attr='wrap' scope='cols' value='auto' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:bike_rider:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Answer:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:bike_rider:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Count:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.05lmcca0y4i9nn12eotr50ujvmnb].[cnt:bike_rider:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[cnt:bike_rider:qk]</rows>
+        <cols>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:bike_rider:nk]</cols>
+      </table>
+      <simple-id uuid='{45968DD4-F50F-4568-A0A6-E4A414A8EB8F}' />
+    </worksheet>
+    <worksheet name='ebike rider'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000'>Do you or anyone in your family ride an e-bike?</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text />
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='all data (cce_survey_data)' name='federated.05lmcca0y4i9nn12eotr50ujvmnb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05lmcca0y4i9nn12eotr50ujvmnb'>
+            <column-instance column='[ebike_rider]' derivation='Count' name='[cnt:ebike_rider:qk]' pivot='key' type='quantitative' />
+            <column caption='E-Bike Rider' datatype='string' name='[ebike_rider]' role='dimension' type='nominal' />
+            <column-instance column='[ebike_rider]' derivation='None' name='[none:ebike_rider:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:ebike_rider:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:ebike_rider:nk]' />
+              <groupfilter function='member' level='[none:ebike_rider:nk]' member='&quot;nan&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:ebike_rider:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;yes&quot;</bucket>
+              <bucket>&quot;no&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:ebike_rider:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[cnt:ebike_rider:qk]' scope='rows' value='Count' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:ebike_rider:nk]' value='59' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:ebike_rider:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Answer:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:ebike_rider:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Count:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.05lmcca0y4i9nn12eotr50ujvmnb].[cnt:ebike_rider:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[cnt:ebike_rider:qk]</rows>
+        <cols>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:ebike_rider:nk]</cols>
+      </table>
+      <simple-id uuid='{11E74E19-EEAA-40D2-A353-DEA15F0A3C9C}' />
+    </worksheet>
+    <worksheet name='length of commute'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000'>How far (ROUND TRIP) do you commute for any purpose each day?</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text />
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='all data (cce_survey_data)' name='federated.05lmcca0y4i9nn12eotr50ujvmnb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05lmcca0y4i9nn12eotr50ujvmnb'>
+            <column caption='CNT(Miles)' datatype='integer' name='[Calculation_2219570989787344907]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='Count([miles])' />
+            </column>
+            <column aggregation='None' caption='Miles (bin)' datatype='integer' name='[Miles (bin) 2]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='0' formula='[miles]' peg='0' size='5' />
+            </column>
+            <column-instance column='[miles]' derivation='Count' name='[cnt:miles:qk]' pivot='key' type='quantitative' />
+            <column caption='Miles' datatype='integer' name='[miles]' role='measure' type='quantitative' />
+            <column-instance column='[Miles (bin) 2]' derivation='None' name='[none:Miles (bin) 2:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_2219570989787344907]' derivation='User' name='[usr:Calculation_2219570989787344907:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:Miles (bin) 2:ok]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Miles (bin) 2:ok]' />
+              <groupfilter function='member' level='[none:Miles (bin) 2:ok]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:Miles (bin) 2:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[cnt:miles:qk]' scope='rows' value='Count' />
+          </style-rule>
+          <style-rule element='field-labels-decoration'>
+            <format attr='vertical-align' value='auto' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[usr:Calculation_2219570989787344907:qk]' palette='blue_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='show-null-value-warning' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[usr:Calculation_2219570989787344907:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-color' value='#4e79a7' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[cnt:miles:qk]</rows>
+        <cols>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:Miles (bin) 2:ok]</cols>
+        <show-full-range>
+          <column>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[Miles (bin) 2]</column>
+          <column>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[Miles (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{DE485CEA-6AB5-4A7A-875C-EFA2079BA310}' />
+    </worksheet>
+    <worksheet name='means of commute'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000'>How do you commute - to work, school, or for other purposes?</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text />
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='all data (cce_survey_data)' name='federated.05lmcca0y4i9nn12eotr50ujvmnb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05lmcca0y4i9nn12eotr50ujvmnb'>
+            <column caption='By Bike' datatype='integer' name='[by_bike]' role='measure' type='quantitative' />
+            <column caption='By Car' datatype='integer' name='[by_car]' role='measure' type='quantitative' />
+            <column caption='By Ebike' datatype='integer' name='[by_ebike]' role='measure' type='quantitative' />
+            <column caption='By Public' datatype='integer' name='[by_public]' role='measure' type='quantitative' />
+            <column caption='By Walking' datatype='integer' name='[by_walking]' role='measure' type='quantitative' />
+            <column caption='No Commute' datatype='integer' name='[no_commute]' role='measure' type='quantitative' />
+            <column-instance column='[by_bike]' derivation='Sum' name='[sum:by_bike:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[by_car]' derivation='Sum' name='[sum:by_car:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[by_ebike]' derivation='Sum' name='[sum:by_ebike:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[by_public]' derivation='Sum' name='[sum:by_public:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[by_walking]' derivation='Sum' name='[sum:by_walking:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[no_commute]' derivation='Sum' name='[sum:no_commute:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.05lmcca0y4i9nn12eotr50ujvmnb].[sum:by_bike:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.05lmcca0y4i9nn12eotr50ujvmnb].[sum:by_car:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.05lmcca0y4i9nn12eotr50ujvmnb].[sum:by_ebike:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.05lmcca0y4i9nn12eotr50ujvmnb].[sum:by_public:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.05lmcca0y4i9nn12eotr50ujvmnb].[sum:by_walking:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.05lmcca0y4i9nn12eotr50ujvmnb].[sum:no_commute:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.05lmcca0y4i9nn12eotr50ujvmnb].[sum:by_car:qk]&quot;</bucket>
+              <bucket>&quot;[federated.05lmcca0y4i9nn12eotr50ujvmnb].[sum:by_public:qk]&quot;</bucket>
+              <bucket>&quot;[federated.05lmcca0y4i9nn12eotr50ujvmnb].[sum:no_commute:qk]&quot;</bucket>
+              <bucket>&quot;[federated.05lmcca0y4i9nn12eotr50ujvmnb].[sum:by_walking:qk]&quot;</bucket>
+              <bucket>&quot;[federated.05lmcca0y4i9nn12eotr50ujvmnb].[sum:by_ebike:qk]&quot;</bucket>
+              <bucket>&quot;[federated.05lmcca0y4i9nn12eotr50ujvmnb].[sum:by_bike:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[Multiple Values]' scope='rows' value='Count' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[Multiple Values]' value='N' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[Multiple Values]</rows>
+        <cols>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{18E25690-C535-4264-9B99-3ACC6BB53BC4}' />
+    </worksheet>
+    <worksheet name='zipcode map'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000'>What is your zipcode?</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text />
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='all data (cce_survey_data)' name='federated.05lmcca0y4i9nn12eotr50ujvmnb' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.05lmcca0y4i9nn12eotr50ujvmnb'>
+            <column-instance column='[zipcode]' derivation='Count' name='[cnt:zipcode:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[zipcode]' derivation='None' name='[none:zipcode:nk]' pivot='key' type='nominal' />
+            <column caption='Zipcode' datatype='string' name='[zipcode]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[Longitude (generated)]' field-type='quantitative' max='-12931619.781904403' min='-13088686.612122856' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[Latitude (generated)]' field-type='quantitative' max='3933953.8687027018' min='3830715.5645110295' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='show-null-value-warning' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[cnt:zipcode:qk]' />
+              <lod column='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:zipcode:nk]' />
+              <geometry column='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[Geometry (generated)]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Zipcode:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:zipcode:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Count :&#9;</run>
+                <run bold='true'><![CDATA[<[federated.05lmcca0y4i9nn12eotr50ujvmnb].[cnt:zipcode:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[Latitude (generated)]</rows>
+        <cols>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[Longitude (generated)]</cols>
+        <annotations>
+          <annotation class='point' id='0' mark-position='1' pullback='12' text-width='115'>
+            <formatted-text>
+              <run fontcolor='#787878'>Zipcode: </run>
+              <run bold='true'><![CDATA[<[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:zipcode:nk]>]]></run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>Count: </run>
+              <run bold='true'><![CDATA[<[federated.05lmcca0y4i9nn12eotr50ujvmnb].[cnt:zipcode:qk]>]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[Longitude (generated)]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[Latitude (generated)]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[cnt:zipcode:qk]</field>
+                      <field>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:zipcode:nk]</field>
+                      <field>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[Geometry (generated)]</field>
+                      <field>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[Latitude (generated)]</field>
+                      <field>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[Longitude (generated)]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>13</value>
+                    <value>&quot;92122&quot;</value>
+                    <value>&quot;POLYGON((-117.2347 32.838,-117.2349 32.838,-117.2367 32.843,-117.2305 32.8574,-117.229 32.8721,-117.2212 32.8703,-117.214 32.8751,-117.2097 32.8737,-117.1995 32.8752,-117.1897 32.8641,-117.182 32.8641,-117.1819 32.8569,-117.1779 32.8473,-117.1961 32.8456,-117.2075 32.8466,-117.2221 32.8403,-117.2347 32.838))&quot;</value>
+                    <value>32.856900000000003</value>
+                    <value>-117.2093</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-115' y='-41' />
+          </annotation>
+          <annotation class='point' id='1' mark-position='1' pullback='12' text-width='121'>
+            <formatted-text>
+              <run fontcolor='#787878'>Zipcode: </run>
+              <run bold='true'><![CDATA[<[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:zipcode:nk]>]]></run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>Count: </run>
+              <run bold='true'><![CDATA[<[federated.05lmcca0y4i9nn12eotr50ujvmnb].[cnt:zipcode:qk]>]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[Longitude (generated)]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[Latitude (generated)]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[cnt:zipcode:qk]</field>
+                      <field>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:zipcode:nk]</field>
+                      <field>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[Geometry (generated)]</field>
+                      <field>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[Latitude (generated)]</field>
+                      <field>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[Longitude (generated)]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>10</value>
+                    <value>&quot;92114&quot;</value>
+                    <value>&quot;POLYGON((-117.0851 32.6924,-117.085 32.7045,-117.0849 32.718,-117.072 32.7269,-117.0583 32.7345,-117.0581 32.7346,-117.0516 32.7334,-117.0492 32.7297,-117.0493 32.7152,-117.0417 32.7206,-117.0354 32.7212,-117.023 32.7185,-117.0182 32.7083,-117.0198 32.7009,-117.0249 32.6979,-117.0341 32.6926,-117.0499 32.6879,-117.0642 32.6889,-117.0652 32.6915,-117.0755 32.6885,-117.0785 32.6932,-117.0851 32.6924))&quot;</value>
+                    <value>32.708199999999998</value>
+                    <value>-117.0548</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='135' y='-61' />
+          </annotation>
+          <annotation class='point' id='2' mark-position='1' pullback='12' text-width='121'>
+            <formatted-text>
+              <run fontcolor='#787878'>Zipcode: </run>
+              <run bold='true'><![CDATA[<[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:zipcode:nk]>]]></run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>Count: </run>
+              <run bold='true'><![CDATA[<[federated.05lmcca0y4i9nn12eotr50ujvmnb].[cnt:zipcode:qk]>]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[Longitude (generated)]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[Latitude (generated)]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[cnt:zipcode:qk]</field>
+                      <field>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:zipcode:nk]</field>
+                      <field>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[Geometry (generated)]</field>
+                      <field>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[Latitude (generated)]</field>
+                      <field>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[Longitude (generated)]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>9</value>
+                    <value>&quot;92102&quot;</value>
+                    <value>&quot;POLYGON((-117.085 32.7045,-117.0931 32.7023,-117.0979 32.707,-117.1091 32.7091,-117.1321 32.7054,-117.1476 32.7052,-117.1476 32.7184,-117.1426 32.7227,-117.1419 32.7289,-117.1336 32.7341,-117.1339 32.7266,-117.1228 32.7265,-117.1178 32.7172,-117.1027 32.7191,-117.089 32.729,-117.0849 32.726,-117.0849 32.718,-117.085 32.7045))&quot;</value>
+                    <value>32.715499999999999</value>
+                    <value>-117.11709999999999</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-113' y='54' />
+          </annotation>
+          <annotation class='point' id='3' mark-position='1' pullback='12' text-width='129'>
+            <formatted-text>
+              <run fontcolor='#787878'>Zipcode: </run>
+              <run bold='true'><![CDATA[<[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:zipcode:nk]>]]></run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>Count: </run>
+              <run bold='true'><![CDATA[<[federated.05lmcca0y4i9nn12eotr50ujvmnb].[cnt:zipcode:qk]>]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[Longitude (generated)]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[Latitude (generated)]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[cnt:zipcode:qk]</field>
+                      <field>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:zipcode:nk]</field>
+                      <field>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[Geometry (generated)]</field>
+                      <field>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[Latitude (generated)]</field>
+                      <field>[federated.05lmcca0y4i9nn12eotr50ujvmnb].[Longitude (generated)]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>8</value>
+                    <value>&quot;92139&quot;</value>
+                    <value>&quot;POLYGON((-117.0642 32.6889,-117.0499 32.6879,-117.0341 32.6926,-117.0249 32.6979,-117.0213 32.6881,-117.0356 32.6776,-117.0416 32.6712,-117.0574 32.6639,-117.0654 32.6624,-117.0728 32.6816,-117.0647 32.6838,-117.0642 32.6889))&quot;</value>
+                    <value>32.6798</value>
+                    <value>-117.04900000000001</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='97' y='79' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{5602B9B1-76C7-453A-83A8-984D37D1AB6E}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='bike rider'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:bike_rider:nk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='96'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{85E9614C-D59D-43BC-903D-A154EFF991D0}' />
+    </window>
+    <window class='worksheet' name='zipcode map'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='93'>
+            <card type='caption' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[cnt:zipcode:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{99D29191-F9C2-4E7D-9E9E-EAC7D98A238A}' />
+    </window>
+    <window class='worksheet' name='ebike rider'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:ebike_rider:nk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='94'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8148EC87-D639-43EF-B792-0D5D13FAF5DE}' />
+    </window>
+    <window class='worksheet' name='means of commute'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card size='31' type='pages' />
+            <card size='47' type='filters' />
+            <card size='186' type='marks' />
+            <card size='85' type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='8' param='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='94'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{735132F6-967B-4F74-9D42-7F004FF639F9}' />
+    </window>
+    <window class='worksheet' name='length of commute'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='66'>
+            <card type='caption' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='123'>
+            <card pane-specification-id='4' param='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[usr:Calculation_2219570989787344907:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{DCE00477-945B-402F-A585-33CA507E5200}' />
+    </window>
+    <window class='worksheet' name='Try Ebike'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:try_bike:nk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='94'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4B531198-3C0B-466C-BDF4-29D8CF25C442}' />
+    </window>
+    <window class='worksheet' maximized='true' name='E-bike Class'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:ebike_class:nk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='94'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7EC51A28-DFA9-4AA3-83E2-FC38E29CB6D9}' />
+    </window>
+    <window class='worksheet' name='E-bike Rules'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:ebike_rules:nk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='94'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{273A6A08-CF94-4FD9-8FFA-DF52D1EE26FA}' />
+    </window>
+    <window class='worksheet' name='E-bike Safty'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:safty:nk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='94'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{27EA708A-D8BE-4926-A5D8-D1920BC92935}' />
+    </window>
+    <window class='worksheet' name='Learn More about E-bikes'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.05lmcca0y4i9nn12eotr50ujvmnb].[none:interested:nk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='94'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{46BED07E-D8AD-4A61-89ED-0F96A8D58B51}' />
+    </window>
+  </windows>
+</workbook>
