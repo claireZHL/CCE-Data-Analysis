@@ -10,6 +10,9 @@
  
  __Step 3 : Survey Data Labeling__
  - In this phase, we assigned cluster labels obtained in step 2 to our own survey data.
+ - In this file contains a file "Survey Data Visualization by Clusters", which stores visualizations depicting the distribution of survey question counts across communities with various labels.
  
- __Step 4 : Survey Data Visualization by Clusters__
+ __Step 4 : Survey Data Normalization__
  - In this phase, we visualized our survey data by each cluster using Tableau.
+ - In this file contains a file "Normalized Survey Data Visualization", which stores visual representations of survey data that have been adjusted for the population size of each labeled community.
+ 
