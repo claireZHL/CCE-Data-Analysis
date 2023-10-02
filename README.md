@@ -13,6 +13,6 @@
  - In this file contains a file "Survey Data Visualization by Clusters", which stores visualizations depicting the distribution of survey question counts across communities with various labels.
  
  __Step 4 : Survey Data Normalization__
- - In this phase, we visualized our survey data by each cluster using Tableau.
+ - In this phase, we normalized our survey data by community size.
  - In this file contains a file "Normalized Survey Data Visualization", which stores visual representations of survey data that have been adjusted for the population size of each labeled community.
  
